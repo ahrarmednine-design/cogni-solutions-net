@@ -9,7 +9,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "البريد الإلكتروني",
-      details: "info@aisolutions.com"
+      details: "info@horizonia.com"
     },
     {
       icon: <Phone className="h-6 w-6 text-accent" />,

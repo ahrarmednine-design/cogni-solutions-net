@@ -25,10 +25,10 @@ const Footer = () => {
           {/* شعار الشركة */}
           <div className="space-y-6">
             <div className="text-2xl font-bold text-gradient">
-              AI Solutions
+              Horizon IA أفق
             </div>
             <p className="text-foreground/70 leading-relaxed">
-              شريكك المثالي في رحلة التحول الرقمي وتطبيق حلول الذكاء الاصطناعي المبتكرة
+              شريكك المثالي في رحلة التحول الرقمي وتطبيق حلول الذكاء الاصطناعي المبتكرة مع Horizon IA أفق
             </p>
             <div className="flex space-x-4 space-x-reverse">
               <Button size="sm" variant="outline" className="p-2 border-primary/50 hover:bg-primary/10">
@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 space-x-reverse text-sm">
                 <Mail className="h-4 w-4 text-accent" />
-                <span className="text-foreground/70">info@aisolutions.com</span>
+                <span className="text-foreground/70">info@horizonia.com</span>
               </div>
               <div className="flex items-center space-x-3 space-x-reverse text-sm">
                 <Phone className="h-4 w-4 text-accent" />
@@ -95,7 +95,7 @@ const Footer = () => {
         <div className="border-t border-glass-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-foreground/60 text-sm">
-              © 2024 AI Solutions. جميع الحقوق محفوظة.
+              © 2024 Horizon IA أفق. جميع الحقوق محفوظة.
             </p>
             <div className="flex space-x-6 space-x-reverse mt-4 md:mt-0">
               <a href="#" className="text-foreground/60 hover:text-primary text-sm transition-colors">

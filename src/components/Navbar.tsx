@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import horizonLogo from "@/assets/horizon-ia-logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,14 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass-card border-0 border-b border-glass-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="text-2xl font-bold text-gradient">
-              AI Solutions
+          <div className="flex items-center space-x-3 space-x-reverse">
+            <img 
+              src={horizonLogo} 
+              alt="Horizon IA أفق" 
+              className="h-10 w-auto"
+            />
+            <div className="text-xl font-bold text-gradient">
+              Horizon IA أفق
             </div>
           </div>
           
