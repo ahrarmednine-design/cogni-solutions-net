@@ -14,12 +14,12 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
       title: "الهاتف",
-      details: "+966 50 123 4567"
+      details: "+216 21 304 255"
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "العنوان",
-      details: "الرياض، المملكة العربية السعودية"
+      details: "تونس"
     }
   ];
 
@@ -86,7 +86,7 @@ const Contact = () => {
               
               <div className="space-y-2">
                 <label className="text-sm font-medium">الهاتف</label>
-                <Input placeholder="+966 50 123 4567" className="glass-card border-glass-border" />
+                <Input placeholder="+216 21 304 255" className="glass-card border-glass-border" />
               </div>
               
               <div className="space-y-2">
