@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "العنوان",
-      details: "تونس"
+      details: "نهج 13 أوت منفلوري - تونس"
     }
   ];
 
