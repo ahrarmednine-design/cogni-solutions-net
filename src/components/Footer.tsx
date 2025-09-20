@@ -1,13 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  
   const quickLinks = [
-    { name: "الرئيسية", href: "#home" },
-    { name: "خدماتنا", href: "#services" },
-    { name: "الدورات", href: "#courses" },
-    { name: "من نحن", href: "#about" },
-    { name: "تواصل معنا", href: "#contact" }
+    { name: t('nav.home'), href: "#home" },
+    { name: t('nav.services'), href: "#services" },
+    { name: t('nav.courses'), href: "#courses" },
+    { name: t('nav.about'), href: "#about" },
+    { name: t('nav.contact'), href: "#contact" }
   ];
 
   const services = [
@@ -28,7 +31,7 @@ const Footer = () => {
               Horizon IA أفق
             </div>
             <p className="text-foreground/70 leading-relaxed">
-              شريكك المثالي في رحلة التحول الرقمي وتطبيق حلول الذكاء الاصطناعي المبتكرة مع Horizon IA أفق
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4 space-x-reverse">
               <Button size="sm" variant="outline" className="p-2 border-primary/50 hover:bg-primary/10">
@@ -45,7 +48,7 @@ const Footer = () => {
 
           {/* روابط سريعة */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold text-primary">روابط سريعة</h3>
+            <h3 className="text-lg font-semibold text-primary">{t('footer.quickLinks')}</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -74,7 +77,7 @@ const Footer = () => {
 
           {/* معلومات التواصل */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold text-primary">تواصل معنا</h3>
+            <h3 className="text-lg font-semibold text-primary">{t('footer.contactInfo')}</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3 space-x-reverse text-sm">
                 <Mail className="h-4 w-4 text-accent" />

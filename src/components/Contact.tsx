@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -5,20 +6,22 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 const Contact = () => {
+  const { t } = useTranslation();
+  
   const contactInfo = [
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
-      title: "البريد الإلكتروني",
+      title: t('contact.email'),
       details: "info@horizonia.com"
     },
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "الهاتف",
+      title: t('contact.phone'),
       details: "+216 21 304 255"
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
-      title: "العنوان",
+      title: t('contact.address'),
       details: "نهج 13 أوت منفلوري - تونس"
     }
   ];
@@ -28,10 +31,10 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold">
-            تواصل <span className="text-gradient">معنا</span>
+            {t('contact.title')}
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            هل لديك مشروع في ذهنك؟ نحن هنا لمساعدتك في تحويل أفكارك إلى حلول ذكية
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -75,35 +78,35 @@ const Contact = () => {
             <CardContent className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">الاسم الكامل</label>
-                  <Input placeholder="أدخل اسمك الكامل" className="glass-card border-glass-border" />
+                  <label className="text-sm font-medium">{t('contact.form.name')}</label>
+                  <Input placeholder={t('contact.form.placeholders.name')} className="glass-card border-glass-border" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">البريد الإلكتروني</label>
-                  <Input type="email" placeholder="example@email.com" className="glass-card border-glass-border" />
+                  <label className="text-sm font-medium">{t('contact.form.email')}</label>
+                  <Input type="email" placeholder={t('contact.form.placeholders.email')} className="glass-card border-glass-border" />
                 </div>
               </div>
               
               <div className="space-y-2">
-                <label className="text-sm font-medium">الهاتف</label>
-                <Input placeholder="+216 21 304 255" className="glass-card border-glass-border" />
+                <label className="text-sm font-medium">{t('contact.form.phone')}</label>
+                <Input placeholder={t('contact.form.placeholders.phone')} className="glass-card border-glass-border" />
               </div>
               
               <div className="space-y-2">
-                <label className="text-sm font-medium">موضوع الرسالة</label>
-                <Input placeholder="حدد موضوع استفسارك" className="glass-card border-glass-border" />
+                <label className="text-sm font-medium">{t('contact.form.subject')}</label>
+                <Input placeholder={t('contact.form.placeholders.subject')} className="glass-card border-glass-border" />
               </div>
               
               <div className="space-y-2">
-                <label className="text-sm font-medium">الرسالة</label>
+                <label className="text-sm font-medium">{t('contact.form.message')}</label>
                 <Textarea 
-                  placeholder="اكتب رسالتك هنا..."
+                  placeholder={t('contact.form.placeholders.message')}
                   className="glass-card border-glass-border min-h-[120px]"
                 />
               </div>
               
               <Button className="w-full gradient-primary text-primary-foreground shadow-glow">
-                إرسال الرسالة
+                {t('contact.form.send')}
                 <Send className="mr-2 h-4 w-4" />
               </Button>
             </CardContent>

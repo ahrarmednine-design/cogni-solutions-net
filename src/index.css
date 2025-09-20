@@ -118,6 +118,16 @@ All colors MUST be HSL.
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   
+  /* Arabic font family */
+  [dir="rtl"] {
+    font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* LTR font family */
+  [dir="ltr"] {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
   html {
     scroll-behavior: smooth;
   }

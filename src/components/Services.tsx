@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Bot, Settings, Brain, BarChart3, ArrowLeft } from "lucide-react";
@@ -6,27 +7,29 @@ import trainingIcon from "@/assets/training-icon.jpg";
 import consultingIcon from "@/assets/consulting-icon.jpg";
 
 const Services = () => {
+  const { t } = useTranslation();
+  
   const services = [
     {
       icon: <Bot className="h-8 w-8 text-primary" />,
-      title: "خدمات الذكاء الاصطناعي",
-      description: "حلول ذكية متطورة لتحسين الإنتاجية وتطوير الأعمال باستخدام أحدث تقنيات الذكاء الاصطناعي",
+      title: t('services.aiServices.title'),
+      description: t('services.aiServices.description'),
       image: servicesIcon,
-      features: ["تطوير نماذج AI مخصصة", "معالجة اللغات الطبيعية", "رؤية حاسوبية", "تحليل البيانات الذكي"]
+      features: t('services.aiServices.features', { returnObjects: true }) as string[]
     },
     {
       icon: <Brain className="h-8 w-8 text-accent" />,
-      title: "الدورات التكوينية",
-      description: "برامج تدريبية متخصصة في الأتمتة الذكية وتطوير المهارات التقنية للفرق والمؤسسات",
+      title: t('services.training.title'),
+      description: t('services.training.description'),
       image: trainingIcon,
-      features: ["ورش عمل تفاعلية", "تدريب على التقنيات الحديثة", "شهادات معتمدة", "متابعة مستمرة"]
+      features: t('services.training.features', { returnObjects: true }) as string[]
     },
     {
       icon: <BarChart3 className="h-8 w-8 text-primary" />,
-      title: "الاستشارات التقنية",
-      description: "خدمات استشارية متخصصة لتحليل احتياجات شركتك ووضع استراتيجيات التحول الرقمي",
+      title: t('services.consulting.title'),
+      description: t('services.consulting.description'),
       image: consultingIcon,
-      features: ["تقييم العمليات الحالية", "تصميم استراتيجيات AI", "تحليل الجدوى", "خطط التنفيذ"]
+      features: t('services.consulting.features', { returnObjects: true }) as string[]
     }
   ];
 
@@ -35,10 +38,10 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold">
-            خدماتنا <span className="text-gradient">المتخصصة</span>
+            {t('services.title')}
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            نقدم مجموعة شاملة من الخدمات المتطورة في مجال الذكاء الاصطناعي والأتمتة لدعم نمو أعمالكم
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -75,7 +78,7 @@ const Services = () => {
                 </ul>
                 
                 <Button variant="outline" className="w-full border-primary/50 text-primary hover:bg-primary/10 group-hover:gradient-primary group-hover:text-primary-foreground">
-                  اعرف المزيد
+                  {t('services.learnMore')}
                   <ArrowLeft className="mr-2 h-4 w-4" />
                 </Button>
               </CardContent>

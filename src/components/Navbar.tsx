@@ -1,18 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import horizonLogo from "@/assets/horizon-ia-logo.jpg";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { updateDocumentLanguage } from "@/i18n";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
+  // Update document direction when language changes
+  useEffect(() => {
+    updateDocumentLanguage(i18n.language);
+  }, [i18n.language]);
+
   const navItems = [
-    { name: "الرئيسية", href: "#home" },
-    { name: "خدماتنا", href: "#services" },
-    { name: "الدورات", href: "#courses" },
-    { name: "المشاريع", href: "#projects" },
-    { name: "من نحن", href: "#about" },
-    { name: "تواصل معنا", href: "#contact" },
+    { name: t('nav.home'), href: "#home" },
+    { name: t('nav.services'), href: "#services" },
+    { name: t('nav.courses'), href: "#courses" },
+    { name: t('nav.projects'), href: "#projects" },
+    { name: t('nav.about'), href: "#about" },
+    { name: t('nav.contact'), href: "#contact" },
   ];
 
   return (
@@ -44,9 +53,10 @@ const Navbar = () => {
             </div>
           </div>
           
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-4 space-x-reverse">
+            <LanguageSwitcher />
             <Button variant="default" className="gradient-primary text-primary-foreground">
-              احجز استشارة
+              {t('nav.bookConsultation')}
             </Button>
           </div>
           
@@ -74,9 +84,12 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="default" className="gradient-primary text-primary-foreground w-full mt-4">
-              احجز استشارة
-            </Button>
+            <div className="mt-4 space-y-3">
+              <LanguageSwitcher />
+              <Button variant="default" className="gradient-primary text-primary-foreground w-full">
+                {t('nav.bookConsultation')}
+              </Button>
+            </div>
           </div>
         </div>
       )}

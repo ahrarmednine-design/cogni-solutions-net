@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Our Services", 
+    "courses": "Courses",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact",
+    "bookConsultation": "Book Consultation"
+  },
+  "hero": {
+    "title": "We Transform Your Ideas into Smart Solutions with",
+    "subtitle": "Horizon IA",
+    "description": "A company specialized in providing artificial intelligence and smart automation solutions that help businesses improve their workflow and increase efficiency",
+    "startJourney": "Start Your Digital Journey",
+    "learnServices": "Learn About Our Services",
+    "stats": {
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients", 
+      "successRate": "Success Rate"
+    }
+  },
+  "services": {
+    "title": "Our Specialized Services",
+    "subtitle": "We offer a comprehensive range of advanced services in artificial intelligence and automation",
+    "aiServices": {
+      "title": "AI Solutions",
+      "description": "Development and implementation of custom artificial intelligence solutions for your business needs",
+      "features": [
+        "Advanced Data Analysis",
+        "Machine Learning & Neural Networks",
+        "Natural Language Processing",
+        "Computer Vision"
+      ]
+    },
+    "training": {
+      "title": "Specialized Training Courses",
+      "description": "Comprehensive training programs to develop your team's skills in technology",
+      "features": [
+        "Artificial Intelligence Courses",
+        "Programming & App Development",
+        "Data Management & Analysis",
+        "Certified Certificates"
+      ]
+    },
+    "consulting": {
+      "title": "Advanced Technical Consulting",
+      "description": "Specialized consulting to help your company make the right technical decisions",
+      "features": [
+        "Technical Infrastructure Assessment",
+        "Digital Transformation Strategy",
+        "Performance & Efficiency Optimization",
+        "Technical Project Management"
+      ]
+    },
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Leading company in artificial intelligence and automation",
+    "description": "At Horizon IA, we believe in the power of technology to transform businesses and improve people's lives. We specialize in providing innovative and customized solutions that help companies grow and thrive in the digital age.",
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be the first partner for companies in their digital and smart transformation journey in the Arab region."
+    },
+    "mission": {
+      "title": "Our Mission", 
+      "text": "Providing advanced technical solutions and high-quality consulting services that help our clients achieve their goals and increase their efficiency."
+    },
+    "achievements": [
+      {
+        "title": "Distinguished Experience",
+        "description": "More than 5 years in technology and artificial intelligence"
+      },
+      {
+        "title": "Specialized Team",
+        "description": "A group of the best developers and technical consultants"
+      },
+      {
+        "title": "Innovative Solutions",
+        "description": "We provide the latest technologies and innovative solutions for our clients"
+      }
+    ],
+    "values": {
+      "title": "Our Core Values",
+      "list": [
+        "Innovation and Creativity",
+        "Quality and Excellence",
+        "Transparency and Trust",
+        "Teamwork",
+        "Continuous Development"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you. Contact us now",
+    "phone": "Phone",
+    "email": "Email", 
+    "address": "Address",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "Enter your email",
+        "phone": "Enter your phone number",
+        "subject": "Choose message subject",
+        "message": "Write your message here..."
+      },
+      "subjects": {
+        "general": "General Inquiry",
+        "consultation": "Consultation Request", 
+        "training": "Training Courses",
+        "project": "New Project"
+      }
+    }
+  },
+  "footer": {
+    "description": "We specialize in providing advanced artificial intelligence and automation solutions to help companies grow and develop.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved"
+  }
+}

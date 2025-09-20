@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Nos Services", 
+    "courses": "Formations",
+    "projects": "Projets",
+    "about": "À Propos",
+    "contact": "Contact",
+    "bookConsultation": "Réserver une Consultation"
+  },
+  "hero": {
+    "title": "Nous Transformons Vos Idées en Solutions Intelligentes avec",
+    "subtitle": "Horizon IA",
+    "description": "Une entreprise spécialisée dans la fourniture de solutions d'intelligence artificielle et d'automatisation intelligente qui aident les entreprises à améliorer leur flux de travail et à augmenter leur efficacité",
+    "startJourney": "Commencez Votre Parcours Numérique",
+    "learnServices": "Découvrez Nos Services",
+    "stats": {
+      "projects": "Projets Terminés",
+      "clients": "Clients Satisfaits", 
+      "successRate": "Taux de Réussite"
+    }
+  },
+  "services": {
+    "title": "Nos Services Spécialisés",
+    "subtitle": "Nous offrons une gamme complète de services avancés en intelligence artificielle et automatisation",
+    "aiServices": {
+      "title": "Solutions IA",
+      "description": "Développement et mise en œuvre de solutions d'intelligence artificielle personnalisées pour vos besoins d'entreprise",
+      "features": [
+        "Analyse de Données Avancée",
+        "Apprentissage Automatique et Réseaux de Neurones",
+        "Traitement du Langage Naturel",
+        "Vision par Ordinateur"
+      ]
+    },
+    "training": {
+      "title": "Formations Spécialisées",
+      "description": "Programmes de formation complets pour développer les compétences de votre équipe en technologie",
+      "features": [
+        "Cours en Intelligence Artificielle",
+        "Programmation et Développement d'Applications",
+        "Gestion et Analyse de Données",
+        "Certificats Agréés"
+      ]
+    },
+    "consulting": {
+      "title": "Conseil Technique Avancé",
+      "description": "Conseil spécialisé pour aider votre entreprise à prendre les bonnes décisions techniques",
+      "features": [
+        "Évaluation de l'Infrastructure Technique",
+        "Stratégie de Transformation Numérique",
+        "Optimisation des Performances et de l'Efficacité",
+        "Gestion de Projets Techniques"
+      ]
+    },
+    "learnMore": "En Savoir Plus"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Entreprise leader en intelligence artificielle et automatisation",
+    "description": "Chez Horizon IA, nous croyons au pouvoir de la technologie pour transformer les entreprises et améliorer la vie des gens. Nous nous spécialisons dans la fourniture de solutions innovantes et personnalisées qui aident les entreprises à croître et à prospérer à l'ère numérique.",
+    "vision": {
+      "title": "Notre Vision",
+      "text": "Être le premier partenaire des entreprises dans leur parcours de transformation numérique et intelligente dans la région arabe."
+    },
+    "mission": {
+      "title": "Notre Mission", 
+      "text": "Fournir des solutions techniques avancées et des services de conseil de haute qualité qui aident nos clients à atteindre leurs objectifs et à augmenter leur efficacité."
+    },
+    "achievements": [
+      {
+        "title": "Expérience Distinguée",
+        "description": "Plus de 5 ans dans la technologie et l'intelligence artificielle"
+      },
+      {
+        "title": "Équipe Spécialisée",
+        "description": "Un groupe des meilleurs développeurs et consultants techniques"
+      },
+      {
+        "title": "Solutions Innovantes",
+        "description": "Nous fournissons les dernières technologies et solutions innovantes pour nos clients"
+      }
+    ],
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "list": [
+        "Innovation et Créativité",
+        "Qualité et Excellence",
+        "Transparence et Confiance",
+        "Travail d'Équipe",
+        "Développement Continu"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour vous aider. Contactez-nous maintenant",
+    "phone": "Téléphone",
+    "email": "Email", 
+    "address": "Adresse",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Email",
+      "phone": "Numéro de Téléphone",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le Message",
+      "placeholders": {
+        "name": "Entrez votre nom complet",
+        "email": "Entrez votre email",
+        "phone": "Entrez votre numéro de téléphone",
+        "subject": "Choisissez le sujet du message",
+        "message": "Écrivez votre message ici..."
+      },
+      "subjects": {
+        "general": "Demande Générale",
+        "consultation": "Demande de Consultation", 
+        "training": "Formations",
+        "project": "Nouveau Projet"
+      }
+    }
+  },
+  "footer": {
+    "description": "Nous nous spécialisons dans la fourniture de solutions avancées d'intelligence artificielle et d'automatisation pour aider les entreprises à croître et à se développer.",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Informations de Contact",
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés"
+  }
+}
