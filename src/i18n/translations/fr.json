@@ -1,59 +1,158 @@
 {
   "nav": {
     "home": "Accueil",
-    "services": "Nos Services", 
-    "courses": "Formations",
+    "services": "Services",
     "projects": "Projets",
-    "about": "À Propos",
+    "training": "Formation",
+    "subscriptions": "Abonnements",
     "contact": "Contact",
     "bookConsultation": "Réserver une Consultation"
   },
   "hero": {
-    "title": "Nous Transformons Vos Idées en Solutions Intelligentes avec",
-    "subtitle": "Horizon IA",
-    "description": "Une entreprise spécialisée dans la fourniture de solutions d'intelligence artificielle et d'automatisation intelligente qui aident les entreprises à améliorer leur flux de travail et à augmenter leur efficacité",
-    "startJourney": "Commencez Votre Parcours Numérique",
-    "learnServices": "Découvrez Nos Services",
+    "title": "Horizon IA أفق",
+    "subtitle": "Leader tunisien en Intelligence Artificielle et Automatisation",
+    "description": "Nous fournissons des solutions IA innovantes, des flux d'automatisation et une formation spécialisée pour transformer votre entreprise et améliorer la productivité.",
+    "discoverServices": "Découvrez nos services",
+    "learnServices": "En savoir plus sur nos services",
     "stats": {
-      "projects": "Projets Terminés",
-      "clients": "Clients Satisfaits", 
-      "successRate": "Taux de Réussite"
+      "projects": "Projets terminés",
+      "clients": "Clients satisfaits",
+      "successRate": "Taux de réussite"
     }
   },
   "services": {
-    "title": "Nos Services Spécialisés",
-    "subtitle": "Nous offrons une gamme complète de services avancés en intelligence artificielle et automatisation",
-    "aiServices": {
-      "title": "Solutions IA",
-      "description": "Développement et mise en œuvre de solutions d'intelligence artificielle personnalisées pour vos besoins d'entreprise",
+    "title": "Nos Services",
+    "subtitle": "Solutions IA complètes conçues pour répondre aux besoins uniques de votre entreprise",
+    "automation": {
+      "title": "Flux d'automatisation prêts à l'emploi",
+      "description": "Solutions d'automatisation pré-construites avec support continu pour rationaliser vos processus métier",
       "features": [
-        "Analyse de Données Avancée",
-        "Apprentissage Automatique et Réseaux de Neurones",
-        "Traitement du Langage Naturel",
-        "Vision par Ordinateur"
+        "Automatisation des processus",
+        "Optimisation des flux de travail",
+        "Support 24/7",
+        "Intégration personnalisée"
       ]
     },
-    "training": {
-      "title": "Formations Spécialisées",
-      "description": "Programmes de formation complets pour développer les compétences de votre équipe en technologie",
+    "subscriptions": {
+      "title": "Plans d'abonnement aux outils IA",
+      "description": "Packages d'abonnement pour les outils OpenAI, Google AI et Perplexity",
       "features": [
-        "Cours en Intelligence Artificielle",
-        "Programmation et Développement d'Applications",
-        "Gestion et Analyse de Données",
-        "Certificats Agréés"
+        "Accès API OpenAI",
+        "Plateforme Google AI",
+        "Perplexity Pro",
+        "Support prioritaire"
       ]
     },
-    "consulting": {
-      "title": "Conseil Technique Avancé",
-      "description": "Conseil spécialisé pour aider votre entreprise à prendre les bonnes décisions techniques",
+    "enterprise": {
+      "title": "Solutions IA sur mesure",
+      "description": "Solutions IA et d'automatisation personnalisées conçues spécifiquement pour les besoins d'entreprise",
       "features": [
-        "Évaluation de l'Infrastructure Technique",
-        "Stratégie de Transformation Numérique",
-        "Optimisation des Performances et de l'Efficacité",
-        "Gestion de Projets Techniques"
+        "Développement IA personnalisé",
+        "Intégration d'entreprise",
+        "Architecture évolutive",
+        "Support dédié"
       ]
     },
-    "learnMore": "En Savoir Plus"
+    "learnMore": "En savoir plus"
+  },
+  "projects": {
+    "title": "Nos Projets",
+    "subtitle": "Implémentations réussies qui génèrent de vrais résultats business",
+    "portfolio": [
+      {
+        "title": "Amélioration de la productivité d'entreprise",
+        "description": "Système de flux de travail automatisé qui a augmenté la productivité de 40% pour une entreprise de fabrication",
+        "category": "Automatisation"
+      },
+      {
+        "title": "Boost des revenus e-commerce",
+        "description": "Moteur de recommandation alimenté par l'IA qui a augmenté les ventes en ligne de 60%",
+        "category": "Solutions IA"
+      },
+      {
+        "title": "Assistant personnel personnalisé",
+        "description": "Assistant virtuel intelligent pour la direction exécutive avec capacités vocales et textuelles",
+        "category": "Assistant IA"
+      }
+    ],
+    "viewProject": "Voir le projet"
+  },
+  "training": {
+    "title": "Programmes de Formation",
+    "subtitle": "Apprenez les compétences IA et d'automatisation avec nos programmes de formation complets",
+    "youtube": {
+      "title": "Formation gratuite en ligne",
+      "description": "Accédez à notre chaîne YouTube pour des tutoriels gratuits sur l'IA et l'automatisation",
+      "subscribe": "S'abonner à notre chaîne"
+    },
+    "programs": [
+      {
+        "title": "Étudiants et Entrepreneurs",
+        "description": "Cours fondamentaux d'IA pour étudiants et entrepreneurs aspirants",
+        "duration": "3 mois"
+      },
+      {
+        "title": "Formation d'entreprise",
+        "description": "Programmes de formation IA spécialisés conçus pour les entreprises et équipes",
+        "duration": "6 mois"
+      },
+      {
+        "title": "Apprentissage IA pour enfants",
+        "description": "Programmes amusants et interactifs d'IA et d'automatisation pour enfants",
+        "duration": "2 mois"
+      }
+    ],
+    "enroll": "S'inscrire maintenant"
+  },
+  "subscriptions": {
+    "title": "Plans d'abonnement",
+    "subtitle": "Choisissez le plan parfait pour vos besoins en IA",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "saveText": "Économisez 20%",
+    "plans": [
+      {
+        "name": "Basique",
+        "price": "99",
+        "period": "mois",
+        "features": [
+          "Accès API OpenAI",
+          "Support de base",
+          "5 projets",
+          "Accès communauté"
+        ]
+      },
+      {
+        "name": "Professionnel",
+        "price": "199",
+        "period": "mois",
+        "popular": true,
+        "features": [
+          "Toutes les fonctionnalités de base",
+          "Plateforme Google AI",
+          "Support prioritaire",
+          "Projets illimités",
+          "Analyses avancées"
+        ]
+      },
+      {
+        "name": "Entreprise",
+        "price": "499",
+        "period": "mois",
+        "features": [
+          "Toutes les fonctionnalités professionnelles",
+          "Accès Perplexity Pro",
+          "Support dédié 24/7",
+          "Intégration personnalisée",
+          "Solutions en marque blanche"
+        ]
+      }
+    ],
+    "paymentMethods": {
+      "title": "Options de paiement",
+      "methods": ["Cartes bancaires tunisiennes", "D17", "Flouci"]
+    },
+    "choosePlan": "Choisir le plan"
   },
   "about": {
     "title": "À Propos de Nous",

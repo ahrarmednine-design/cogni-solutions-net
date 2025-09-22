@@ -11,25 +11,25 @@ const Services = () => {
   
   const services = [
     {
-      icon: <Bot className="h-8 w-8 text-primary" />,
-      title: t('services.aiServices.title'),
-      description: t('services.aiServices.description'),
+      icon: <Settings className="h-8 w-8 text-primary" />,
+      title: t('services.automation.title'),
+      description: t('services.automation.description'),
       image: servicesIcon,
-      features: t('services.aiServices.features', { returnObjects: true }) as string[]
+      features: t('services.automation.features', { returnObjects: true }) as string[]
     },
     {
-      icon: <Brain className="h-8 w-8 text-accent" />,
-      title: t('services.training.title'),
-      description: t('services.training.description'),
+      icon: <Bot className="h-8 w-8 text-accent" />,
+      title: t('services.subscriptions.title'),
+      description: t('services.subscriptions.description'),
       image: trainingIcon,
-      features: t('services.training.features', { returnObjects: true }) as string[]
+      features: t('services.subscriptions.features', { returnObjects: true }) as string[]
     },
     {
       icon: <BarChart3 className="h-8 w-8 text-primary" />,
-      title: t('services.consulting.title'),
-      description: t('services.consulting.description'),
+      title: t('services.enterprise.title'),
+      description: t('services.enterprise.description'),
       image: consultingIcon,
-      features: t('services.consulting.features', { returnObjects: true }) as string[]
+      features: t('services.enterprise.features', { returnObjects: true }) as string[]
     }
   ];
 

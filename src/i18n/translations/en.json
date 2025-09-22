@@ -1,18 +1,18 @@
 {
   "nav": {
     "home": "Home",
-    "services": "Our Services", 
-    "courses": "Courses",
+    "services": "Services",
     "projects": "Projects",
-    "about": "About Us",
-    "contact": "Contact",
+    "training": "Training",
+    "subscriptions": "Subscriptions",
+    "contact": "Contact Us",
     "bookConsultation": "Book Consultation"
   },
   "hero": {
-    "title": "We Transform Your Ideas into Smart Solutions with",
-    "subtitle": "Horizon IA",
-    "description": "A company specialized in providing artificial intelligence and smart automation solutions that help businesses improve their workflow and increase efficiency",
-    "startJourney": "Start Your Digital Journey",
+    "title": "Horizon IA أفق",
+    "subtitle": "A Tunisian leader in Artificial Intelligence and Automation",
+    "description": "We provide innovative AI solutions, automation workflows, and specialized training to transform your business and boost productivity.",
+    "discoverServices": "Discover Our Services",
     "learnServices": "Learn About Our Services",
     "stats": {
       "projects": "Completed Projects",
@@ -21,39 +21,138 @@
     }
   },
   "services": {
-    "title": "Our Specialized Services",
-    "subtitle": "We offer a comprehensive range of advanced services in artificial intelligence and automation",
-    "aiServices": {
-      "title": "AI Solutions",
-      "description": "Development and implementation of custom artificial intelligence solutions for your business needs",
+    "title": "Our Services",
+    "subtitle": "Comprehensive AI solutions designed to meet your unique business needs",
+    "automation": {
+      "title": "Ready-to-use Automation Workflows",
+      "description": "Pre-built automation solutions with ongoing support to streamline your business processes",
       "features": [
-        "Advanced Data Analysis",
-        "Machine Learning & Neural Networks",
-        "Natural Language Processing",
-        "Computer Vision"
+        "Process Automation",
+        "Workflow Optimization",
+        "24/7 Support",
+        "Custom Integration"
       ]
     },
-    "training": {
-      "title": "Specialized Training Courses",
-      "description": "Comprehensive training programs to develop your team's skills in technology",
+    "subscriptions": {
+      "title": "AI Tool Subscription Plans",
+      "description": "Subscription packages for OpenAI, Google AI, and Perplexity tools",
       "features": [
-        "Artificial Intelligence Courses",
-        "Programming & App Development",
-        "Data Management & Analysis",
-        "Certified Certificates"
+        "OpenAI API Access",
+        "Google AI Platform",
+        "Perplexity Pro",
+        "Priority Support"
       ]
     },
-    "consulting": {
-      "title": "Advanced Technical Consulting",
-      "description": "Specialized consulting to help your company make the right technical decisions",
+    "enterprise": {
+      "title": "Tailor-made AI Solutions",
+      "description": "Custom AI and automation solutions designed specifically for enterprise needs",
       "features": [
-        "Technical Infrastructure Assessment",
-        "Digital Transformation Strategy",
-        "Performance & Efficiency Optimization",
-        "Technical Project Management"
+        "Custom AI Development",
+        "Enterprise Integration",
+        "Scalable Architecture",
+        "Dedicated Support"
       ]
     },
     "learnMore": "Learn More"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Successful implementations that drive real business results",
+    "portfolio": [
+      {
+        "title": "Company Productivity Enhancement",
+        "description": "Automated workflow system that increased productivity by 40% for a manufacturing company",
+        "category": "Automation"
+      },
+      {
+        "title": "E-commerce Revenue Boost",
+        "description": "AI-powered recommendation engine that increased online sales by 60%",
+        "category": "AI Solutions"
+      },
+      {
+        "title": "Custom Personal Assistant",
+        "description": "Intelligent virtual assistant for executive management with voice and text capabilities",
+        "category": "AI Assistant"
+      }
+    ],
+    "viewProject": "View Project"
+  },
+  "training": {
+    "title": "Training Programs",
+    "subtitle": "Learn AI and automation skills with our comprehensive training programs",
+    "youtube": {
+      "title": "Free Online Training",
+      "description": "Access our YouTube channel for free AI and automation tutorials",
+      "subscribe": "Subscribe to Our Channel"
+    },
+    "programs": [
+      {
+        "title": "Students & Entrepreneurs",
+        "description": "Foundational AI courses for students and aspiring entrepreneurs",
+        "duration": "3 months"
+      },
+      {
+        "title": "Corporate Training",
+        "description": "Specialized AI training programs designed for companies and teams",
+        "duration": "6 months"
+      },
+      {
+        "title": "Kids AI Learning",
+        "description": "Fun and interactive AI and automation programs for children",
+        "duration": "2 months"
+      }
+    ],
+    "enroll": "Enroll Now"
+  },
+  "subscriptions": {
+    "title": "Subscription Plans",
+    "subtitle": "Choose the perfect plan for your AI needs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "saveText": "Save 20%",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "99",
+        "period": "month",
+        "features": [
+          "OpenAI API Access",
+          "Basic Support",
+          "5 Projects",
+          "Community Access"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "199",
+        "period": "month",
+        "popular": true,
+        "features": [
+          "All Basic Features",
+          "Google AI Platform",
+          "Priority Support",
+          "Unlimited Projects",
+          "Advanced Analytics"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "499",
+        "period": "month",
+        "features": [
+          "All Professional Features",
+          "Perplexity Pro Access",
+          "24/7 Dedicated Support",
+          "Custom Integration",
+          "White-label Solutions"
+        ]
+      }
+    ],
+    "paymentMethods": {
+      "title": "Payment Options",
+      "methods": ["Tunisian Bank Cards", "D17", "Flouci"]
+    },
+    "choosePlan": "Choose Plan"
   },
   "about": {
     "title": "About Us",

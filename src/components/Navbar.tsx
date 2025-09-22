@@ -23,14 +23,14 @@ const Navbar = () => {
     name: t('nav.services'),
     href: "#services"
   }, {
-    name: t('nav.courses'),
-    href: "#courses"
-  }, {
     name: t('nav.projects'),
     href: "#projects"
   }, {
-    name: t('nav.about'),
-    href: "#about"
+    name: t('nav.training'),
+    href: "#training"
+  }, {
+    name: t('nav.subscriptions'),
+    href: "#subscriptions"
   }, {
     name: t('nav.contact'),
     href: "#contact"

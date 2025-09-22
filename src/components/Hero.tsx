@@ -25,7 +25,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="gradient-primary text-primary-foreground shadow-glow">
-                {t('hero.startJourney')}
+                {t('hero.discoverServices')}
                 <ArrowLeft className="mr-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="border-primary/50 text-primary hover:bg-primary/10">
