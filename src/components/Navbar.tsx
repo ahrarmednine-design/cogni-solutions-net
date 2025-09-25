@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import horizonLogo from "@/assets/horizon-ia-logo.jpg";
+import watcherLogo from "@/assets/watcher-ia-logo.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { updateDocumentLanguage } from "@/i18n";
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3 space-x-reverse">
-            <img src={horizonLogo} alt="Horizon IA أفق" className="h-10 w-auto" />
+            <img src={watcherLogo} alt="Watcher IA واتشر" className="h-10 w-auto rounded-full" />
             <div className="text-xl font-bold text-gradient">
           </div>
           </div>
